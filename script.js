@@ -69,4 +69,17 @@ const generateContent = () => {
   }
 };
 
+const toggleDarkMode = () => {
+  const body = document.body;
+  const params = new URLSearchParams(document.location.search);
+  const dark = JSON.parse(params.get("dark"));
+
+  if (dark) {
+    body.classList.add("dark-mode");
+  } else {
+    body.classList.remove("dark-mode");
+  }
+};
+
 generateContent();
+toggleDarkMode();

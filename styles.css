@@ -29,3 +29,13 @@ h1 {
   margin-top: 24px;
   margin-bottom: 20px;
 }
+
+body {
+  background-color: white; /* Light mode background color */
+  color: black; /* Light mode text color */
+}
+
+.dark-mode {
+  background-color: #000;
+  color: white;
+}
