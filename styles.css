@@ -8,11 +8,23 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
+  background-color: white; /* Light mode background color */
+  color: black; /* Light mode text color */
+  font-size: 16px;
+  line-height: 28px;
 }
 
 h1 {
+  font-size: 2.25em;
   margin-bottom: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.dark-mode {
+  background-color: rgb(21, 23, 24);
+  color: rgb(209, 213, 219);
 }
 
 .main {
@@ -22,20 +34,22 @@ h1 {
 }
 
 .last-updated {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.greeting {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .title {
   margin-top: 24px;
   margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
-body {
-  background-color: white; /* Light mode background color */
-  color: black; /* Light mode text color */
-}
-
-.dark-mode {
-  background-color: #000;
-  color: white;
+section {
+  margin-bottom: 30px;
 }

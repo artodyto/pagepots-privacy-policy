@@ -57,11 +57,11 @@ const generateContent = () => {
     const section = document.createElement("section");
     const description = document.createElement("p");
 
-    b.append(privacy.title); //bold the title
-    title.appendChild(b); //title
+    title.append(privacy.title); //title
     title.classList.add("title");
+
     description.append(privacy.description); // description
-    description.style.fontSize = "16px";
+    description.classList.add("description");
 
     section.append(title);
     section.append(description);
